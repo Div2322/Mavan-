@@ -68,6 +68,7 @@ public class LoginTest {
         
 		String actualError= driver.findElement(By.xpath("//div[contains(text(),'Invalid')]")).getText();
 		
+		
 		Assert.assertEquals(actualError,"Invalid username or password");
 		
 	}		
