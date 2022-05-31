@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-30T12:17:05 IST" name="Default suite" finished-at="2022-05-30T12:17:05 IST" duration-ms="82">
+  <suite started-at="2022-05-31T09:53:55 IST" name="Default suite" finished-at="2022-05-31T09:54:24 IST" duration-ms="28877">
     <groups>
     </groups>
-    <test started-at="2022-05-30T12:17:05 IST" name="Default test" finished-at="2022-05-30T12:17:05 IST" duration-ms="82">
+    <test started-at="2022-05-31T09:53:55 IST" name="Default test" finished-at="2022-05-31T09:54:24 IST" duration-ms="28877">
       <class name="com.brillio.Test.LoginTest">
-        <test-method signature="validCredentialTest()[pri:0, instance:com.brillio.Test.LoginTest@4fb61f4a]" started-at="2022-05-30T12:17:05 IST" name="validCredentialTest" finished-at="2022-05-30T12:17:05 IST" duration-ms="10" status="PASS">
+        <test-method signature="InvalidCredentialTest()[pri:0, instance:com.brillio.Test.LoginTest@3febb011]" started-at="2022-05-31T09:53:55 IST" name="InvalidCredentialTest" finished-at="2022-05-31T09:54:07 IST" duration-ms="12598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCredentialTest -->
+        <test-method signature="validCredentialTest()[pri:0, instance:com.brillio.Test.LoginTest@3febb011]" started-at="2022-05-31T09:54:07 IST" name="validCredentialTest" finished-at="2022-05-31T09:54:24 IST" duration-ms="16245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredentialTest -->
